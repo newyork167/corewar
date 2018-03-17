@@ -37,7 +37,7 @@ WARRIOR_COLORS = (((0,0,100), (0,0,255)),
 
 def load_opcode_surfaces():
     "Load the images of the opcodes from the file"
-    all_instructions = pygame.image.load('pixels/instructions.png')
+    all_instructions = pygame.image.load('../pixels/instructions.png')
     class Y:
         y = -INSTRUCTION_SIZE_Y
         def __call__(self):
